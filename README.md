@@ -19,3 +19,17 @@ il contient:
 - public/ : Contient les fichiers accessibles publiquement (CSS).
 css/ : Fichier CSS pour le style du site. (style.css)
 - config/ : Configuration du projet Symfony.
+
+
+Organisation des pages principales :
+- Page d'accueil (route /) :
+
+Affiche un message de bienvenue.
+Lien vers la liste des produits.
+- Liste des produits (route /products) :
+
+Affiche une liste de produits dynamiquement générée.
+Message si aucun produit n'est disponible.
+- Détails d'un produit (route /product/{id}) :
+
+Affiche les informations détaillées pour un produit spécifique.
