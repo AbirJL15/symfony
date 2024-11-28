@@ -16,6 +16,6 @@ il contient:
      - site/ : folder contenant des templates spécifiques (page d'accueil, liste de produits).
       -partials/ : Sous-templates comme le pied de page.
        
--public/ : Contient les fichiers accessibles publiquement (CSS).
+- public/ : Contient les fichiers accessibles publiquement (CSS).
 css/ : Fichier CSS pour le style du site. (style.css)
 - config/ : Configuration du projet Symfony.
