@@ -1,12 +1,12 @@
 Il s'agit d'une application web simple développée avec Symfony, permettant d'afficher une page d'accueil et une liste de produits électroniques. 
 
-** Fonctionnalités principales: **
+**Fonctionnalités principales:**
 - Page d'accueil : Présente une introduction au site avec un message de bienvenue.
 - Liste des produits : Affiche une liste de produits électroniques générée dynamiquement depuis un contrôleur.
 - Détails d'un produit : Permet d'afficher les détails spécifiques d'un produit via une route dédiée.
 
 
- ** Architecture du projet: **
+ **Architecture du projet:**
 Organisation des dossiers principaux :
 - src/ : Contient le code PHP de l'application.
        Controller/ : Le contrôleur définissant la logique des routes.
@@ -21,7 +21,7 @@ css/ : Fichier CSS pour le style du site. (style.css)
 - config/ : Configuration du projet Symfony.
 
 
-** Organisation des pages principales : **
+**Organisation des pages principales :**
 - Page d'accueil (route /) :
 
 Affiche un message de bienvenue.
