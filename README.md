@@ -9,11 +9,13 @@ Fonctionnalités principales:
  Architecture du projet:
 Organisation des dossiers principaux :
 - src/ : Contient le code PHP de l'application.
-Controller/ : Les contrôleurs définissant la logique des routes.
-templates/ : Fichiers TWIG pour les vues.
-base.html.twig : Template de base pour l'application.
-site/ : Templates spécifiques (page d'accueil, liste de produits, etc.).
-partials/ : Sous-templates comme le pied de page.
-public/ : Contient les fichiers accessibles publiquement (CSS, images, JS).
-css/ : Fichier CSS pour le style du site.
-config/ : Configuration du projet Symfony.
+       Controller/ : Le contrôleur définissant la logique des routes.
+- templates/ : Fichiers TWIG pour les vues.
+il contient:
+    - base.html.twig : Template de base pour l'application.
+     - site/ : folder contenant des templates spécifiques (page d'accueil, liste de produits).
+      -partials/ : Sous-templates comme le pied de page.
+       
+-public/ : Contient les fichiers accessibles publiquement (CSS).
+css/ : Fichier CSS pour le style du site. (style.css)
+- config/ : Configuration du projet Symfony.
