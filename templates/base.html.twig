@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Mon Site{% endblock %}</title>
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="{{ path('homepage') }}">Accueil</a>
+            <a href="{{ path('products_list') }}">Produits</a>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}
+        <!-- Contenu des pages enfants -->
+        {% endblock %}
+    </main>
+
+    {% include 'partials/footer.html.twig' %}
+</body>
+</html>
